@@ -1,0 +1,35 @@
+.body{
+    background-color: rgb(195, 207, 247);
+}
+.parent{
+    
+    /* background-color: ,rgb(195, 207, 247); */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+img{
+    display: grid;
+    width: 200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    border: yellow solid 2px;
+    text-align: center;
+    padding: 100px;
+    font-family:monospace;
+}
+@media only screen and (max-width: 600px) {
+    .parent{
+        background-color: rgb(195, 207, 247);
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 10px;
+        padding: 10px;
+        margin-top: 30px;
+    }
+}

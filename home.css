@@ -1,0 +1,56 @@
+
+body{
+background-image:linear-gradient(rgba(59, 56, 56, 0.5),rgba(59, 56, 56, 0.5)) , url(../Unit1-project/bored.png);
+width: 100%;
+height: 100hv;
+}
+
+#homeDiv , #selectElement{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    
+}
+#selectElement{
+    border-radius: 10px;
+}
+.bored{
+    text-align: center;
+    font-family: fantasy;
+    font-style: bold;
+    margin-top: 10px;
+    color: yellow;
+    font-size: 40px;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family:cursive;
+    font-style: oblique;
+    
+}
+#btn{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: sandybrown;
+    
+
+}
+#homelabel{
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+    .parent{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        column-gap: 10px;
+        padding: 15px;
+        margin: 30px;
+    
+    }
+}
