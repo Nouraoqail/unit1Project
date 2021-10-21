@@ -8,6 +8,6 @@ body.append(div)
 div.append(table)
 let td=document.createElement('td'); 
 td.innerHTML=JSON.parse(localStorage.getItem('array'));
- table.append(td);
+table.append(td);
 
  //i'm gonna fix the page order here and fix the table.
